@@ -1,5 +1,5 @@
 {pkgs, ...}: {
-  users.users.linuxmobile = {
+  users.users.picharsiu = {
     isNormalUser = true;
     shell = pkgs.zsh;
     extraGroups = [

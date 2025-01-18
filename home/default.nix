@@ -10,8 +10,8 @@
     self.nixosModules.theme
   ];
   home = {
-    username = "linuxmobile";
-    homeDirectory = "/home/linuxmobile";
+    username = "picharsiu";
+    homeDirectory = "/home/picharsiu";
     stateVersion = "24.05";
   };
 

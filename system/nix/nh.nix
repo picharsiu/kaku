@@ -1,6 +1,6 @@
 _: {
   # nh default flake
-  environment.variables.FLAKE = "/home/linuxmobile/Dev/nixland";
+  environment.variables.FLAKE = "/home/picharsiu/Dev/nixland";
 
   programs.nh = {
     enable = true;

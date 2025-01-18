@@ -29,8 +29,8 @@
           "${mod}/core/lanzaboote.nix"
           {
             home-manager = {
-              users.linuxmobile.imports =
-                homeImports."linuxmobile@aesthetic";
+              users.picharsiu.imports =
+                homeImports."picharsiu@aesthetic";
               extraSpecialArgs = specialArgs;
             };
           }

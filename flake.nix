@@ -85,7 +85,7 @@
     nixos-cosmic.url = "github:lilyinstarlight/nixos-cosmic";
 
     zen-browser = {
-      url = "github:linuxmobile/zen-browser-flake";
+      url = "github:picharsiu/zen-browser-flake";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
