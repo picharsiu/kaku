@@ -365,64 +365,6 @@
         "type": "github"
       }
     },
-    "niri": {
-      "inputs": {
-        "niri-stable": "niri-stable",
-        "niri-unstable": "niri-unstable",
-        "nixpkgs": [
-          "nixpkgs"
-        ],
-        "nixpkgs-stable": "nixpkgs-stable_2",
-        "xwayland-satellite-stable": "xwayland-satellite-stable",
-        "xwayland-satellite-unstable": "xwayland-satellite-unstable"
-      },
-      "locked": {
-        "lastModified": 1734988923,
-        "narHash": "sha256-DmCefR+2CwM0tdtJtpg1114kAwskNhyYyN8xoe/f9sI=",
-        "owner": "sodiboo",
-        "repo": "niri-flake",
-        "rev": "3d268c743b568febe83dc49e926f21b41b6d72d2",
-        "type": "github"
-      },
-      "original": {
-        "owner": "sodiboo",
-        "repo": "niri-flake",
-        "type": "github"
-      }
-    },
-    "niri-stable": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1731483594,
-        "narHash": "sha256-Qjf7alRbPPERfiZsM9EMKX+HwjESky1tieh5PJIkLwE=",
-        "owner": "YaLTeR",
-        "repo": "niri",
-        "rev": "75c79116a7e40cbc0e110ce0cdd500e896458679",
-        "type": "github"
-      },
-      "original": {
-        "owner": "YaLTeR",
-        "ref": "v0.1.10.1",
-        "repo": "niri",
-        "type": "github"
-      }
-    },
-    "niri-unstable": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1734977336,
-        "narHash": "sha256-5klPkbBmEisNWWwnI4QYSum1syG5RyqBqEKNkHBA1ns=",
-        "owner": "YaLTeR",
-        "repo": "niri",
-        "rev": "955039b5ea07c3fb2ff3278c0543004d86b7dcc7",
-        "type": "github"
-      },
-      "original": {
-        "owner": "YaLTeR",
-        "repo": "niri",
-        "type": "github"
-      }
-    },
     "nix-gaming": {
       "inputs": {
         "flake-parts": [
@@ -638,7 +580,6 @@
         "helix": "helix",
         "hm": "hm",
         "lanzaboote": "lanzaboote",
-        "niri": "niri",
         "nix-gaming": "nix-gaming",
         "nix-index-db": "nix-index-db",
         "nixos-cosmic": "nixos-cosmic",
@@ -646,8 +587,7 @@
           "nixos-cosmic",
           "nixpkgs"
         ],
-        "systems": "systems_3",
-        "zen-browser": "zen-browser"
+        "systems": "systems_3"
       }
     },
     "rust-overlay": {
@@ -828,27 +768,6 @@
       "original": {
         "owner": "Supreeeme",
         "repo": "xwayland-satellite",
-        "type": "github"
-      }
-    },
-    "zen-browser": {
-      "inputs": {
-        "flake-utils": "flake-utils_3",
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1735070544,
-        "narHash": "sha256-dm6+IRC4I1qC9WaIwpae2JiHaaAqxme88Gu1AyKiW44=",
-        "owner": "linuxmobile",
-        "repo": "zen-browser-flake",
-        "rev": "d5c910b89cdcba5abf43a9e2633ea1393ce4814a",
-        "type": "github"
-      },
-      "original": {
-        "owner": "linuxmobile",
-        "repo": "zen-browser-flake",
         "type": "github"
       }
     }
